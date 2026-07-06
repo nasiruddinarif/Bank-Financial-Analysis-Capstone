@@ -56,6 +56,7 @@ Feature standardization was tested against Logistic Regression and did not mater
 - **Imbalance handling**: Random Under-Sampling, Random Over-Sampling, SMOTE
 
 ## Repository Structure
+
 ├── EDE_Capstone_SC_Nasiruddin_arif.ipynb   # Full end-to-end pipeline notebook
 ├── dataset/
 │   └── banking_capstone_data.rar           # Compressed source data (8 CSV tables)
