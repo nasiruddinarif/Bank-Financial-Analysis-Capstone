@@ -8,7 +8,7 @@ Banks need to assess loan default risk using fragmented operational data spread 
 
 ## Dataset
 
-Source: European bank financial dataset (8 CSV tables)
+Source: European bank financial dataset (8 CSV tables), provided as a compressed archive: `dataset/banking_capstone_data.rar`
 
 | Table | Description |
 |---|---|
@@ -57,18 +57,19 @@ Feature standardization was tested against Logistic Regression and did not mater
 
 ## Repository Structure
 ├── EDE_Capstone_SC_Nasiruddin_arif.ipynb   # Full end-to-end pipeline notebook
+├── dataset/
+│   └── banking_capstone_data.rar           # Compressed source data (8 CSV tables)
 ├── requirements.txt
 └── README.md
 
 ## How to Run
 
 1. Clone the repository.
-2. Install dependencies:
-pip install -r requirements.txt
-3. Place the 8 source CSV files in a local `data/` folder (not included in this repo — see note below).
+2. Install dependencies: pip install -r requirements.txt
+3. Download `dataset/banking_capstone_data.rar` from this repo and extract it into a local `data/` folder in your project root.
 4. Open the notebook in Jupyter and run cells sequentially.
 
-> **Note on data:** Raw CSV files are not included in this repository due to size. The notebook expects them at `/content/data/` (Colab-style path) — update the paths at the top of the notebook to match your local `data/` folder if running outside Colab.
+> **Note on data:** The dataset is provided as a compressed archive (`dataset/banking_capstone_data.rar`) to keep the repo lightweight. Extract it before running the notebook. The notebook expects CSVs at `/content/data/` (Colab-style path) — update paths if running locally.
 
 ## Author
 
