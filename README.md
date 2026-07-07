@@ -58,9 +58,13 @@ Feature standardization was tested against Logistic Regression and did not mater
 ## Repository Structure
 
 ├── End_to_end_bank_loan_default_DE_project.ipynb   # Full end-to-end pipeline notebook
+
 ├── dataset/
+
 │   └── banking_capstone_data.rar                   # Compressed source data (8 CSV tables)
+
 ├── requirements.txt
+
 └── README.md
 
 ## How to Run
