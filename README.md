@@ -34,6 +34,8 @@ Sourced from a Czech retail bank (translated and adapted for this project), cont
 
 ## 🔧 Pipeline Overview
 
+![Pipeline workflow diagram](docs/banking_pipeline_workflow.svg)
+
 1. **Data Ingestion** — Loaded all 8 source tables into Spark DataFrames with schema inference and correct delimiters.
 2. **Exploratory Data Analysis** — Branch-level customer counts, account growth trends, gender splits, card preferences by demographic, loan distributions, and salary/unemployment correlations (Spark SQL + Pandas/Matplotlib).
 3. **Modeling Dataset Construction** — Joined loan → account → district → client → transaction aggregates into one loan-level table using layered CTEs.
